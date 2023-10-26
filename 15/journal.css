@@ -1,0 +1,34 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  line-height: 1em;
+}
+
+p {
+  font-family: Verdana, Geneva, Arial;
+}
+
+html {
+  font-size: 12px;
+}
+
+h1 {
+  font-size: 2.2rem;
+}
+
+h2{
+  font-size: 1.3rem;
+}
+
+h2 {
+  font-weight: normal;
+}
+
+blockquote {
+  font-style: oblique;
+}
+
+h1,h2 {
+	border-bottom: thin dotted #888888;
+  color:#CC6600
+	}
