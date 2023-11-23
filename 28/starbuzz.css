@@ -5,36 +5,29 @@ body {
   margin:           0px;
 }
 
-#header {
+.header {
   background-color: #675c47;
   margin:           10px;
   height:           108px;
 }
 
-.main {
+section.blog {
   background:       #efe5d0 url(images/background.gif) top left;
   font-size:        105%;
-  padding:          15px;
-  /*margin:           0px 10px 10px 10px;*/
+  padding:          15px; 
+  /* margin:           0px 10px 10px 10px; */
   display: table-cell;
   vertical-align: top;
-}
-
-.drinks {
-    background-color: #efe5d0;
-    padding: 15px;
 }
 
 .sidebar {
   background:       #efe5d0 url(images/background.gif) bottom right;
   font-size:        105%;
   padding:          15px;
-  margin:           0px 10px 10px 10px;
-  display: table-cell;
-  vertical-align: top;
+  /* margin:           0px 10px 10px 10px; */
 }
 
-#footer {
+.footer {
   background-color: #675c47;
   color:            #efe5d0;
   text-align:       center;
@@ -60,39 +53,49 @@ a:link {
   text-decoration:  none;
   border-bottom:    thin dotted #b76666;
 }
-
 a:visited {
   color:            #675c47;
   text-decoration:  none;
   border-bottom:    thin dotted #675c47;
 }
 
-div.tableContainer {
-  display:table;
-  border-spacing: 10px;
+div#tableContainer {
+  display: talbe;
+  border-spacing: 10px;  /* 为表格中地单元格设置 10px 的边框间距（相当于外边距）*/
 }
 
-div.talbeRow {
+div#talbeRow {
   display: table-row;
 }
 
+
+.sidebar {
+  display: table-cell;
+  vertical-align: top;
+}
+
+#drinks {
+  display: table-cell;
+  vertical-align: top;
+  background-color: #efe5d0;
+  padding: 15px;
+}
+
 .award {
-	position： absolute;
+	position: absolute;
 	top: 30px;
 	left: 45%;
 }
 
-.drinks {
-    background-color: #efe5d0;
-    padding: 15px;
-    display: table-row;
-    vertical-align: top;
+.coupon { 
+	position: fixed; 
+	top: 350px; 
+	left: -210px; /* 初始位置在左侧 */ 
+	transition: left 0.5s ease; /* 添加过渡效果 */
 }
 
-.coupon {
-	position: fixed;
-	top: 350px;
-	left: 0px;
+.coupon:hover {
+	left: 0px; /* 悬停时移动到 0px 的位置 */
 }
 
 .coupon a, img{
