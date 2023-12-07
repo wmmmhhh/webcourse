@@ -1,22 +1,85 @@
-#line5_txt {
-background-color: #00664F;
-background-color: #E63B53
+.line5_pic_1::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 30px solid #00664f;
+  /* background-color: #fff; */
+  right: -8%;
+  bottom: 25%;
+  z-index: 10;
 }
-
-#line5_pic_1 {
-position: absolute;top: 40%;
+.line5_pic_2::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 30px solid #e63b53;
+  /* background-color: #fff; */
+  right: -20%;
+  bottom: 14%;
+  z-index: 10;
 }
-
-#p {
-color: #fff;text-align: center;font-size: 20px;font-weight: 500;padding-bottom: 15px;
-color: #fff;text-align: center;font-size: 15px;
+.line5_pic_3::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 30px solid #fff;
+  /* background-color: #fff; */
+  left: -48%;
+  bottom: 14%;
+  z-index: 10;
 }
-
-#line5_pic_2 {
-position: absolute;top: 40%;
+.line5_pic_4::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 30px solid #fff;
+  /* background-color: #fff; */
+  left: -48%;
+  bottom: 14%;
+  z-index: 10;
 }
-
-#p {
-color: #fff;text-align: center;font-size: 20px;font-weight: 500;padding-bottom: 15px;
-color: #fff;text-align: center;font-size: 15px;margin-left: 30px;
+.line5_img {
+  width: 378.5px;
+  height: 100%;
+  overflow: hidden;
+}
+.line5_1_img {
+  background-image: url("../期末/images/ZnaQqJdfGzJdebzXgxWg.jpg");
+  background-size: cover;
+}
+.line5_1_img:hover {
+  transform: scale(1.05);
+  transition-duration: 0.6s;
+}
+.line5_2_img {
+  background-image: url("../期末/images/kqqCbZiSUBOzQFPlmPSu.jpg");
+  background-size: cover;
+}
+.line5_2_img:hover {
+  transform: scale(1.05);
+  transition-duration: 0.6s;
+}
+.line5_3_img {
+  background-image: url("../期末/images/eNTmrwQiDUybUmCJJKQB.jpg");
+  background-size: cover;
+}
+.line5_3_img:hover {
+  transform: scale(1.05);
+  transition-duration: 0.6s;
+}
+.line5_4_img {
+  background-image: url("../期末/images/KmGDXTQKQekNTYonbtrK.jpg");
+  background-size: cover;
+}
+.line5_4_img:hover {
+  transform: scale(1.05);
+  transition-duration: 0.6s;
 }
