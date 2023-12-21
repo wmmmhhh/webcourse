@@ -1,0 +1,95 @@
+.line9 {
+  height: 71px;
+  background-color: #222d29;
+  display: flex;
+  justify-content: space-evenly;
+  line-height: 71px;
+  border-bottom: 1px solid rgb(225, 225, 225, 0.5);
+}
+.line9_opacity {
+  opacity: 0.5;
+}
+.line9 a {
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  /* opacity: 0.5; */
+  position: relative;
+}
+.line9_arrow {
+  background-color: #E63B53;
+  padding: 0 15px;
+}
+.line9_arrow::after {
+  content: "";
+  display: block;
+  width: 25px;
+  height: 13px;
+  background: url(./images/btn-quick-open02.png) no-repeat center center;
+  position: absolute;
+  left: 17px;
+  top: 10px;
+}
+/* line10的样式 line10的样式 line10的样式 line10的样式 line10的样式 line10的样式 line10的样式 line10的样式 */
+.line10 {
+  height: 120px;
+  background-color: #222d29;
+  display: flex;
+}
+.line10_left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.line10_left_1 {
+  width: 50px;
+  height: 50px;
+  background: url("./images/logo-footer.png") no-repeat center center;
+  margin-right: 20px;
+}
+.line10_left_2 {
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.line10_left_2 > p:nth-child(1){
+  color: #fff;
+}
+.line10_left_2 > p:nth-child(2){
+  color: #fff;
+  opacity: .5;
+  font-size: 15px;
+}
+.line10_right {
+  flex: 1;
+  font-size: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .line10_right_select {
+    width: 162px;
+    height: 35px;
+    font-size: 14px;
+    padding: 9px 30px 10px 20px;
+    background-color: #222d29;
+    border: 1px solid #fff;
+    color: rgb(225, 225, 225, 0.5);
+  }
+  .button_go {
+    display: inline-block;
+    width: 45px;
+    height: 35px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 35px;
+    text-decoration: none;
+    font-size: 16px;
+    vertical-align: top;
+    color: #333;
+  }
+}
+.line10_right_before_select {
+  margin-right: 15px;
+}
